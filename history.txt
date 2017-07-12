@@ -1,0 +1,94 @@
+    1  ls
+    2  mkdir Arrays
+    3  cd Arrays/
+    4  echo "# Arrays" >> README.md
+    5  git init
+    6  git add README.md
+    7  git commit -m "first commit"
+    8  git remote add origin git@github.com:Samsoffar/Arrays.git
+    9  git push -u origin master
+   10  touch Arrays.js
+   11  todos = ['item 1', 'item 2', 'item 3']
+   12  c9 Arrays.js
+   13  cd .
+   14  cd ..
+   15  mv Arrays CareerDevsWnC
+   16  ls
+   17  cd CareerDevsWnC/
+   18  git status
+   19  git add Arrays.js
+   20  git commit -m "Create Add/edit an array" 
+   21  git add .. 
+   22  git add .
+   23  git commit - m "Lesson 1 (Version) - Arrays"
+   24  git commit -m "Lesson 1 (Version) - Arrays"
+   25  git commit -m "Arrays- Lesson 1"
+   26  git push -u origin master
+   27  cd ..
+   28  ls
+   29  mkdir Survey
+   30  cd Survey
+   31  touch index.html
+   32  git status
+   33  echo "# Survey" >> README.md
+   34  git init
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git remote add origin git@github.com:Samsoffar/Survey.git
+   38  git push -u origin master
+   39  git log
+   40  git add .
+   41  git status
+   42  c9 index.html
+   43  cd ..
+   44  ls
+   45  mkdir p5quoteG
+   46  cd p5quoteG/
+   47  echo "# p5quoteG" >> README.md
+   48  git init
+   49  git add README.md
+   50  git commit -m "first commit"
+   51  git remote add origin git@github.com:Samsoffar/p5quoteG.git
+   52  git push -u origin master
+   53  mkdir css js 
+   54  touch index.html css/style.css js/script.js
+   55  c9 index.html
+   56  c9 js/script.js 
+   57  cd ..
+   58  mkdir gitBranching
+   59  cd gitBranching/
+   60  git init
+   61  touch indexA.html
+   62  touch todosA.js
+   63  c9 indexA.html
+   64  git add *
+   65  git ci -m " initial repo"
+   66  git commit  -m " initial repo"
+   67  git remote add origin git@github.com:Samsoffar/gitBranching.git
+   68  git push -u origin master
+   69  git status
+   70  git checkout -b v1
+   71  git status
+   72  git add -A
+   73  git commit -m "working on v1"
+   74  git push 
+   75  git checkout master
+   76  git checkout v1
+   77  git add -A
+   78  git commmit -m "more v1 work"
+   79  git commit -m "more v1 work"
+   80  git add -A
+   81  git commit -m "finishing work"
+   82  git push
+   83  git log
+   84  git checkout c6c7aa33f86bcaa45ceb273629a7cffb0516ea12
+   85  git add -A
+   86  git commit -m "fixing v1"
+   87  git push
+   88  git checkout -b fixingv1
+   89  git status
+   90  git push
+   91  git pull origin v1
+   92  git checkout master
+   93  git merge v1
+   94  history > history.txt
